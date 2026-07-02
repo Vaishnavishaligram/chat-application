@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 
 // Point this at your deployed backend URL (e.g. Render) when you deploy.
-const SERVER_URL = import.meta.env.VITE_SERVER_URL || "http://localhost:5000";
+const SERVER_URL = import.meta.env.VITE_SERVER_URL || "https://chat-application-x4z1.onrender.com";
 
 function formatTime(isoString) {
   const date = new Date(isoString);
