@@ -43,7 +43,7 @@ npm install
 npm start
 ```
 
-Server runs on `http://localhost:5000` by default (override with `PORT` in a `.env` file — see `.env.example`).
+Server runs on `https://chat-application-x4z1.onrender.com` by default (override with `PORT` in a `.env` file — see `.env.example`).
 
 ### 2. Frontend
 
@@ -55,7 +55,7 @@ npm install
 npm run dev
 ```
 
-Opens at `http://localhost:5173`. It talks to the backend at `http://localhost:5000` by default — override with `VITE_SERVER_URL` in a `.env` file (see `.env.example`) if your backend runs elsewhere.
+Opens at `http://localhost:5173`. It talks to the backend at `https://chat-application-x4z1.onrender.com` by default — override with `VITE_SERVER_URL` in a `.env` file (see `.env.example`) if your backend runs elsewhere.
 
 ### 3. Try it
 
